@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41ef0823862d78e442da3c422054ca19",
+    "revision": "b7a329941beda04cb45f3aea7894bd12",
     "url": "/hp-game/index.html"
   },
   {
-    "revision": "e09c89f88860f8236a54",
-    "url": "/hp-game/static/js/2.02a33f33.chunk.js"
+    "revision": "e906d032c6c4f8bbd2dd",
+    "url": "/hp-game/static/js/2.c98e6e97.chunk.js"
   },
   {
     "revision": "e2896a34bc173bbd7b6d83453e91d5e1",
-    "url": "/hp-game/static/js/2.02a33f33.chunk.js.LICENSE.txt"
+    "url": "/hp-game/static/js/2.c98e6e97.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24c57c89cc82c4d2c0dd",
-    "url": "/hp-game/static/js/main.276d8684.chunk.js"
+    "revision": "1ec7abca5181e496d88b",
+    "url": "/hp-game/static/js/main.7c5264f9.chunk.js"
   },
   {
     "revision": "bd2092f89ece9a1a72b7",

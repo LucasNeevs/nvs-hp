@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/hp-game/static/js/main.276d8684.chunk.js",
-    "main.js.map": "/hp-game/static/js/main.276d8684.chunk.js.map",
+    "main.js": "/hp-game/static/js/main.7c5264f9.chunk.js",
+    "main.js.map": "/hp-game/static/js/main.7c5264f9.chunk.js.map",
     "runtime-main.js": "/hp-game/static/js/runtime-main.149310f6.js",
     "runtime-main.js.map": "/hp-game/static/js/runtime-main.149310f6.js.map",
-    "static/js/2.02a33f33.chunk.js": "/hp-game/static/js/2.02a33f33.chunk.js",
-    "static/js/2.02a33f33.chunk.js.map": "/hp-game/static/js/2.02a33f33.chunk.js.map",
+    "static/js/2.c98e6e97.chunk.js": "/hp-game/static/js/2.c98e6e97.chunk.js",
+    "static/js/2.c98e6e97.chunk.js.map": "/hp-game/static/js/2.c98e6e97.chunk.js.map",
     "index.html": "/hp-game/index.html",
-    "precache-manifest.5d46add5a03691272ff2a12d183b090b.js": "/hp-game/precache-manifest.5d46add5a03691272ff2a12d183b090b.js",
+    "precache-manifest.9630c2c65738b5a3ff4ace2607dadb6b.js": "/hp-game/precache-manifest.9630c2c65738b5a3ff4ace2607dadb6b.js",
     "service-worker.js": "/hp-game/service-worker.js",
-    "static/js/2.02a33f33.chunk.js.LICENSE.txt": "/hp-game/static/js/2.02a33f33.chunk.js.LICENSE.txt",
+    "static/js/2.c98e6e97.chunk.js.LICENSE.txt": "/hp-game/static/js/2.c98e6e97.chunk.js.LICENSE.txt",
     "static/media/hog-bg.webp": "/hp-game/static/media/hog-bg.61b7c23b.webp",
     "static/media/hp-title.png": "/hp-game/static/media/hp-title.767b51a5.png",
     "static/media/pnghat.png": "/hp-game/static/media/pnghat.ab4bd9ce.png"
   },
   "entrypoints": [
     "static/js/runtime-main.149310f6.js",
-    "static/js/2.02a33f33.chunk.js",
-    "static/js/main.276d8684.chunk.js"
+    "static/js/2.c98e6e97.chunk.js",
+    "static/js/main.7c5264f9.chunk.js"
   ]
 }
