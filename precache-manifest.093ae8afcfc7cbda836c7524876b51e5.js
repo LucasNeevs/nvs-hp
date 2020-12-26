@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a0ef67606dc599e838d9055c5cdb8bb",
+    "revision": "95f6366d6708872ac9f2ae73bab2e36f",
     "url": "/hp-game/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hp-game/static/js/2.c98e6e97.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9302649795298391d03b",
-    "url": "/hp-game/static/js/main.c998f0fb.chunk.js"
+    "revision": "d659ca94bccb49dc121d",
+    "url": "/hp-game/static/js/main.71982fe1.chunk.js"
   },
   {
     "revision": "bd2092f89ece9a1a72b7",
