@@ -1,5 +1,6 @@
 {
-  "name": "harry-potter-game",
+  "name": "nvs-hp",
+  "homepage": "https://lucasneevs.github.io/hp-game/",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -51,8 +52,9 @@
     "build-storybook": "build-storybook",
     "eslint": "eslint src/*/**.*s*",
     "eslint:fix": "npm run eslint --fix",
-    "deploy": "npm run eslint:fix && npm run build && npm run start",
-    "deploy:gh": "gh-pages -d build"
+    "deploy:full": "npm run eslint:fix && npm run build && npm run start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

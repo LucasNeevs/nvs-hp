@@ -23,7 +23,7 @@ export default (): ReactElement => {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <S.Container>
           <Typography className={classes.label}>Select level</Typography>
           <div style={{
