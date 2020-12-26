@@ -27,6 +27,11 @@ export default makeStyles((): IStyles => ({
     '&:hover': {
       fontWeight: 'bold',
     },
+    '@media(max-width: 767px)': {
+      width: 80,
+      height: 40,
+      fontSize: '1rem',
+    },
   },
   select: {
     border: '1px solid #000',

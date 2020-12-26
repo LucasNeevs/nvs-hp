@@ -4,7 +4,7 @@ import {
   Switch, Route, Link, HashRouter,
 } from 'react-router-dom';
 import { Typography } from '@material-ui/core';
-import Home from './LevelEmpty';
+import Home from './LevelEmpty/LevelEmpty';
 import Form1 from '../Forms/Form1/Form';
 import Form2 from '../Forms/Form2/Form';
 import Form3 from '../Forms/Form3/Form';
