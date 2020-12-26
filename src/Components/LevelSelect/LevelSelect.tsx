@@ -1,9 +1,10 @@
 /* eslint-disable no-alert */
 import React, { ReactElement, useState } from 'react';
 import {
-  BrowserRouter as Router, Switch, Route, Link, BrowserRouter,
+  Switch, Route, Link, HashRouter,
 } from 'react-router-dom';
 import { Typography } from '@material-ui/core';
+import Home from './LevelEmpty';
 import Form1 from '../Forms/Form1/Form';
 import Form2 from '../Forms/Form2/Form';
 import Form3 from '../Forms/Form3/Form';
@@ -11,6 +12,12 @@ import Form4 from '../Forms/Form4/Form';
 import optionsLevel from '../../Utils/Routes';
 import { ILevel } from '../../Interfaces/IRouter';
 import useStyles, * as S from './Styles';
+
+const NotFound = (): JSX.Element => (
+  <>
+    Not found
+  </>
+);
 
 export default (): ReactElement => {
   const [data, setData] = useState('');
@@ -23,7 +30,7 @@ export default (): ReactElement => {
 
   return (
     <>
-      <BrowserRouter basename="/">
+      <HashRouter basename="/">
         <S.Container>
           <Typography className={classes.label}>Select level</Typography>
           <div style={{
@@ -47,12 +54,14 @@ export default (): ReactElement => {
           </div>
         </S.Container>
         <Switch>
+          <Route exact path="/" component={Home} />
           <Route exact path="/form1" component={Form1} />
           <Route exact path="/form2" component={Form2} />
           <Route exact path="/form3" component={Form3} />
           <Route exact path="/form4" component={Form4} />
+          <Route component={NotFound} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
