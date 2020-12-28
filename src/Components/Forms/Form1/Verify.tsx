@@ -4,7 +4,7 @@ import { IForm } from '../../../Interfaces/IForm';
 export const VerifyHat = (values: IForm): void => {
   let value = 0;
 
-  if (values.questionA === 'A') value += 10;
+  if (values.questionA === 'B') value += 10;
   if (values.questionB === 'A') value += 10;
   if (values.questionC === 'C') value += 10;
   if (values.questionD === 'A') value += 10;
