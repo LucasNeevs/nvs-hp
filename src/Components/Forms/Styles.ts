@@ -30,6 +30,7 @@ export default makeStyles((theme: Theme): IStyles => ({
     },
     '& .MuiFormControlLabel-root': {
       cursor: 'default !important',
+      padding: 10,
     },
     margin: '10px 0px',
     '& span': {
